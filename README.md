@@ -13,14 +13,7 @@ Due to an ongoing patent application, the pre-trained model is only available up
 If you find this implementation useful in your work, please acknowledge it appropriately and cite the paper:
 
 ````
-@InProceedings{IMKDB17,
-  author       = "E. Ilg and N. Mayer and T. Saikia and M. Keuper and A. Dosovitskiy and T. Brox",
-  title        = "FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks",
-  booktitle    = "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
-  month        = "Jul",
-  year         = "2017",
-  url          = "http://lmb.informatik.uni-freiburg.de//Publications/2017/IMKDB17"
-}
+
 ````
 
 
