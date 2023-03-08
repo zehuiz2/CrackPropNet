@@ -1,4 +1,3 @@
 # CrackPropNet
 
-The manuscript is in press. More examples of the database, the pre-trained model, and all code will be available at the time of publication.
-Thank you.
+The paper is in the International Journal of Pavement Engineering. The pre-trained model is available upon request to [Zehui](zehui.zhu.uiuc@gmail.com).
