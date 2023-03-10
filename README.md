@@ -6,6 +6,9 @@ CrackPropNet is an optical flow-based deep neural network for crack propagation 
 
 [*Read More*](https://www.tandfonline.com/doi/full/10.1080/10298436.2023.2186407)
 
+[*Alternative Link*](https://github.com/zehuiz2/CrackPropNet/Zhu_Al_Qadi.pdf)
+)
+
 ## Access
 
 Due to an ongoing patent application, the pre-trained model is only available upon request to [Zehui](mailto:zehui.zhu.uiuc@gmail.com). Please clearly state your institution and purpose of use in the email.
