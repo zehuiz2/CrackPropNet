@@ -13,7 +13,17 @@ Due to an ongoing patent application, the pre-trained model is only available up
 If you find this implementation useful in your work, please acknowledge it appropriately and cite the paper:
 
 ````
-
+@article{doi:10.1080/10298436.2023.2186407,
+author = {Zehui Zhu and Imad L. Al-Qadi},
+title = {Automated crack propagation measurement on asphalt concrete specimens using an optical flow-based deep neural network},
+journal = {International Journal of Pavement Engineering},
+volume = {24},
+number = {1},
+pages = {2186407},
+year  = {2023},
+publisher = {Taylor & Francis},
+doi = {10.1080/10298436.2023.2186407}
+}
 ````
 
 
