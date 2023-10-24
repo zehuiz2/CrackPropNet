@@ -36,6 +36,12 @@ A pytorch implementation of these layers with cuda kernels are available at ./ne
 
 The pretrained weights of CrackPropNet is available [*here*](https://drive.google.com/file/d/12-ARk1DRcm1B-Uv0g8HnjXrhzZQJPhZO/view?usp=drive_link).
 
+## Inference
+
+```
+python inference.py /path/to/input/images --output /path/to/output  --pretrained /path/to/pretrained/model
+```
+
 ## Example
 
 Sample input images are available at ./img. Reference image should always end with `_0.png`. Deformed images should end with `_*.png`. Sample outputs are available at ./output.
