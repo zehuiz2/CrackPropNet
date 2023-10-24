@@ -6,9 +6,32 @@ CrackPropNet is an optical flow-based deep neural network for crack propagation 
 
 [*Read More*](https://www.tandfonline.com/doi/full/10.1080/10298436.2023.2186407) ([*Alternative Link*](Zhu_Al_Qadi_2023.pdf))
 
-## Access
+## Installation
 
-Due to an ongoing patent application, the pre-trained model is only available upon request to [Zehui](mailto:zehui.zhu.uiuc@gmail.com). Please clearly state your institution and purpose of use in the email.
+```
+git clone https://github.com/zehuiz2/CrackPropNet.git
+cd CrackPropNet
+
+# install custom layers
+bash install.sh
+```
+
+## Python requirements
+
+Currently, the code supports Python 3.8
+
+
+## Custom layers
+
+CrackPropNet achitecture relies on custom layers Resample2d or Correlation.
+A pytorch implementation of these layers with cuda kernels are available at ./networks.
+* numpy
+* Pillow
+* torch==1.7.1
+* torchvision==0.2.2
+* tqdm
+* glob
+
 
 ## Reference
 
@@ -27,4 +50,6 @@ doi = {10.1080/10298436.2023.2186407}
 }
 ````
 
+## Acknowledgement
 
+This implementation is based on the Pytorch implmentation of FlowNetCSS from [*FlowNet 2.0*](https://github.com/NVIDIA/flownet2-pytorch)
