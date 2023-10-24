@@ -76,7 +76,8 @@ def main():
         img = img.to(device)
         pred = ((Sigmoid(model(img)) > 0.5).float().cpu().numpy()) * 255
         pred = pred[0, 0, :, :].astype(np.uint8)
-        output = os.path.join(save_path, filename[0])
+        output = os.path.join(save_path, filename[0]).replace(
+            '/' + data_dir + '/', '/')
         Image.fromarray(pred).save(output)
 
 

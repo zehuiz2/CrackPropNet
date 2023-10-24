@@ -19,12 +19,6 @@ bash install.sh
 ## Python requirements
 
 Currently, the code supports Python 3.8
-
-
-## Custom layers
-
-CrackPropNet achitecture relies on custom layers Resample2d or Correlation.
-A pytorch implementation of these layers with cuda kernels are available at ./networks.
 * numpy
 * Pillow
 * torch==1.7.1
@@ -32,6 +26,19 @@ A pytorch implementation of these layers with cuda kernels are available at ./ne
 * tqdm
 * glob
 
+
+## Custom layers
+
+CrackPropNet achitecture relies on custom layers Resample2d or Correlation.
+A pytorch implementation of these layers with cuda kernels are available at ./networks.
+
+## Pretrained weights
+
+The pretrained weights of CrackPropNet is available [*here*](https://drive.google.com/file/d/12-ARk1DRcm1B-Uv0g8HnjXrhzZQJPhZO/view?usp=drive_link).
+
+## Example
+
+Sample input images are available at ./img. Reference image should always end with `_0.png`. Deformed images should end with `_*.png`. Sample outputs are available at ./output.
 
 ## Reference
 
